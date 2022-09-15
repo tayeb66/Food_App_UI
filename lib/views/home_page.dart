@@ -99,6 +99,8 @@ class _HomePageState extends State<HomePage> {
               fontWeight: FontWeight.w800,
             ),
           ),
+
+          /// Fetch Categories item info from const file
           SizedBox(
             height: 240,
             child: ListView.builder(
@@ -122,6 +124,8 @@ class _HomePageState extends State<HomePage> {
               fontWeight: FontWeight.w800,
             ),
           ),
+
+          /// Fetch Popular item info from const file
           Column(
               children: List.generate(
                   popularFoodList.length,
